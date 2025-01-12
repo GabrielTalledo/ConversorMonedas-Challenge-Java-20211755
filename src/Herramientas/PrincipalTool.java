@@ -22,7 +22,7 @@ public class PrincipalTool {
 
     public void mostrarMenu() throws IOException, InterruptedException {
         String listaMonedasStr = MonedaTool.obtenerListaMonedasStr(listaMonedas);
-        String inicioStr =
+        String inicioStr = "\n"+
                 """
                 *********************************************************
                 Sea bienvenido/a al Conversor de Monedas :)
