@@ -10,7 +10,7 @@ public class Conversion {
     private Double valorConvertido;
     private Moneda monedaBase;
     private Moneda monedaConversion;
-    private DecimalFormat dfPretty = new DecimalFormat("###'###.##");
+    private DecimalFormat dfPretty = new DecimalFormat("###,###.##");
 
     // Constructores:
 
